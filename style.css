@@ -82,7 +82,10 @@ color: white;
 .container{
     flex-direction: row;
     justify-content: space-between;
-    height: 35em;
+    height: fit-content;
+    width: 70%;
+    padding: 3em 0;
+    margin: 5rem auto;
    
 }  
 
@@ -98,13 +101,22 @@ color: white;
      width: 10vw;
 }
 .span-container> div:last-child{
-margin-bottom: 3em;
+margin-bottom: 2em;
 }
 
 button:first-child{
-   margin-top: 3em;
+   margin-top: 1em;
 }
 button{
     width: 13vw;
+    margin: 5px;
+}
+
+.btns-group{
+    /* display: none; */
+    /* background: red; */
+    width: 50%;
+    height: fit-content;
+
 }
 }
