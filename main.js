@@ -52,6 +52,6 @@ startBtn.addEventListener("click", () => {
     hr.innerHTML = 0;
     min.innerHTML = 0;
     sec.innerHTML = 0;
+    clearInterval(start);
   });
 });
- 
